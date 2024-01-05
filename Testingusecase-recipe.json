@@ -1,0 +1,47 @@
+[
+  {
+    "Action": {
+      "Operation": "FILL_WITH_CUSTOM",
+      "Parameters": {
+        "columnDataType": "string",
+        "sourceColumn": "Firstname",
+        "value": "FNU"
+      }
+    },
+    "ConditionExpressions": [
+      {
+        "Condition": "IS_INVALID",
+        "Value": "string",
+        "TargetColumn": "Firstname"
+      }
+    ]
+  },
+  {
+    "Action": {
+      "Operation": "FILL_WITH_CUSTOM",
+      "Parameters": {
+        "columnDataType": "string",
+        "sourceColumn": "Lastname",
+        "value": "LNU"
+      }
+    },
+    "ConditionExpressions": [
+      {
+        "Condition": "IS_INVALID",
+        "Value": "string",
+        "TargetColumn": "Lastname"
+      }
+    ]
+  },
+  
+  {
+    "Action": {
+      "Operation": "FILL_WITH_CUSTOM",
+      "Parameters": {
+        "columnDataType": "int",
+        "sourceColumn": "ScoreValue",
+        "value": "0"
+      }
+    }
+  }
+]
